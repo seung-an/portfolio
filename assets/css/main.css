@@ -3995,6 +3995,7 @@ body.is-preload #sidebar nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .project-info > .project-img {
@@ -4003,6 +4004,15 @@ body.is-preload #sidebar nav ul li {
 
   .project-info > .project-text {
     width: 97%;
+  }
+
+  .career-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-detail > .career-detail-text {
+    width: 100%;
   }
 }
 
@@ -4011,6 +4021,7 @@ body.is-preload #sidebar nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .project-info > .project-img {
@@ -4018,6 +4029,15 @@ body.is-preload #sidebar nav ul li {
   }
 
   .project-info > .project-text {
+    width: 100%;
+  }
+
+  .career-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-detail > .career-detail-text {
     width: 100%;
   }
 }
@@ -4038,16 +4058,61 @@ body.is-preload #sidebar nav ul li {
 
 .project-info {
   display: flex;
-  /* flex-direction: column; */
   align-items: flex-start;
+  justify-content: center;
 }
 
 .project-img {
-  width: 45%;
+  width: 50%;
   border-radius: 10px;
 }
 
 .project-text {
-  width: 45%;
+  width: 50%;
   padding: 10px;
+}
+
+.project-url {
+  color: #258ddb;
+}
+
+.project-url:hover {
+  color: #258ddb;
+  border-bottom: 1px solid #258ddb;
+}
+
+.career-box {
+  display: flex;
+}
+
+.career-img-box {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* .career-img {
+  width: 70%;
+} */
+
+.career-info-box {
+  width: calc(100% - 15vw);
+  border-left: 1px solid gray;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.career-detail {
+  display: flex;
+}
+
+.career-detail-text {
+  width: 50%;
 }
