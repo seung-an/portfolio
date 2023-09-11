@@ -3929,7 +3929,11 @@ body.is-preload #sidebar nav ul li {
 
 /* Intro */
 
-#intro {
+#intro,
+#one,
+#two,
+#three,
+#four {
   background-attachment: fixed;
   background-image: url("images/intro.svg");
   background-position: top right;
@@ -4093,14 +4097,7 @@ body.is-preload #sidebar nav ul li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
-
-/* .career-img {
-  width: 70%;
-} */
 
 .career-info-box {
   width: calc(100% - 15vw);
@@ -4115,4 +4112,15 @@ body.is-preload #sidebar nav ul li {
 
 .career-detail-text {
   width: 50%;
+}
+
+.intro-box {
+  margin-top: 20px;
+}
+
+.intro-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
 }
