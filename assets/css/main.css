@@ -4050,11 +4050,12 @@ body.is-preload #sidebar nav ul li {
   border-radius: 10px;
   width: 100%;
   padding: 10px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 .project-box > h2 {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .project-info {
