@@ -4014,10 +4014,6 @@ body.is-preload #sidebar nav ul li {
     display: flex;
     flex-direction: column;
   }
-
-  .career-detail > .career-detail-text {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -4039,10 +4035,6 @@ body.is-preload #sidebar nav ul li {
   .career-detail {
     display: flex;
     flex-direction: column;
-  }
-
-  .career-detail > .career-detail-text {
-    width: 100%;
   }
 }
 
@@ -4109,7 +4101,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 .career-detail-text {
-  width: 50%;
+  width: 100%;
   padding-bottom: 20px;
 }
 
